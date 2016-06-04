@@ -16,6 +16,10 @@ public class RestHelper {
 
 
     public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
+<<<<<<< HEAD
+=======
+      
+>>>>>>> cb540d1... Removing stuff that should be there
         client.get(getAbsoluteUrl(url),params, responseHandler);
     }
 
